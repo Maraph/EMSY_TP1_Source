@@ -56,7 +56,7 @@ Workstation Player, à l’aide d’une image disque (ISO).
 
 **G.** Lancement du live CD : 
 
-<img width="800" height="654" alt="image" src="https://github.com/user-attachments/assets/f5d7aa00-c9eb-4242-8d45-81d3e83d0388" />
+![Virtual disk](/Images/G.jpg) 
 
 Shell Linux : 
 
@@ -82,7 +82,7 @@ Q4. cd /
 
 **I.** Affichez le contenu de la racine avec la commande : `ls –l`	
 
-<img width="820" height="652" alt="image" src="https://github.com/user-attachments/assets/26ef2db5-8ccd-4231-9ea1-57438fabf43b" />
+![Virtual disk](/Images/I.jpg) 
 
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
@@ -91,7 +91,7 @@ du répertoire complet
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-<img width="383" height="17" alt="image" src="https://github.com/user-attachments/assets/247c6ec9-bbf1-416e-a1bc-53edd99b738d" />
+![Virtual disk](/Images/Q6.jpg) 
 
 d = Est un directory  
 r = Peut etre lu par le créateur  
