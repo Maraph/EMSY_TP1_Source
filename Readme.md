@@ -56,7 +56,7 @@ Workstation Player, à l’aide d’une image disque (ISO).
 
 **G.** Lancement du live CD : 
 
-[Placer votre capture d'écran]() 
+<img width="800" height="654" alt="image" src="https://github.com/user-attachments/assets/f5d7aa00-c9eb-4242-8d45-81d3e83d0388" />
 
 Shell Linux : 
 
@@ -66,33 +66,43 @@ Shell Linux :
 
 Q1. disposition du clavier américain ?
 
-> votre réponse ?!
+qwerty
 
 Q2. disposition du clavier suisse-romand ?
 
-> votre réponse ?!
+qwertz
 
 Q3. disposition du le clavier français ? 
 
-> votre réponse ?!
+azerty
 
 **H.** Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
 
-Q4. vore commande ?!
+Q4. cd /
 
 **I.** Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Placer votre capture d'écran]() 
+<img width="820" height="652" alt="image" src="https://github.com/user-attachments/assets/26ef2db5-8ccd-4231-9ea1-57438fabf43b" />
+
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+du répertoire complet
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-[Placer votre capture d'écran]()
+<img width="383" height="17" alt="image" src="https://github.com/user-attachments/assets/247c6ec9-bbf1-416e-a1bc-53edd99b738d" />
 
-> votre réponse ?!
+d = Est un directory  
+r = Peut etre lu par le créateur  
+w = Peut écris par le créateur  
+x = Peut être éxécuté par le créateur  
+r = Peut etre lu par un groupe  
+"-" = Ne peut pas etre écrit par un groupe  
+x = Peut être éxécuté par un groupe  
+r = Peut etre lu par tout le restes des utilisateurs  
+"-" = Peut etre écrit par tout le restes des utilisateurs  
+x = Peut être éxécuté par tout le restes des utilisateurs  
 
 **J.** Créez un répertoire de travail nommé « EMSY_VosInitiales» 
 
