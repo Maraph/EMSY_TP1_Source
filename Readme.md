@@ -108,37 +108,40 @@ x = Peut être éxécuté par tout le restes des utilisateurs
 
 Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse) 
 
-Le répertoire var car c'est un répertoire où tou le monde  
-à les droits d'écriture / lecture
+Le répertoire var car il est indépendant a chaque utilisateur et   
+j'aurais les droits d'écriture / lecture
 
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
 cd var
+sudo mkdir EMSY_MCN_TBT
 
 **K.** Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	   Utiliser la commande `vi`
 
-nano 
+sudo vi TESTSLO_MCN_TBT
 
 Q9. Pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+oui
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+non car il est sauvgardé dans la RAM et non la ROM 
 
 **L.** Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/Q10.jpg) 
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+Elle fait montrer toutes les partitions de disques dans le répertoire  
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
-> votre réponse ?!
+Le repertoire home ne sauvgarde rien qui n'est pas dans un user  
+tandis que le /dev/sda lui saugardera tout dans la rom car nous ecrivons  
+directement sur le disque.
 
 ## Installation de SparkyLinux sur la VM
 
