@@ -108,16 +108,17 @@ x = Peut être éxécuté par tout le restes des utilisateurs
 
 Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse) 
 
-> votre réponse ?! 
+Le répertoire var car c'est un répertoire où tou le monde  
+à les droits d'écriture / lecture
 
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
-> votre commande ?! 
+cd var
 
 **K.** Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	   Utiliser la commande `vi`
 
-> votre commande ?! 
+nano 
 
 Q9. Pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
