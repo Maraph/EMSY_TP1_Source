@@ -60,7 +60,7 @@ Workstation Player, à l’aide d’une image disque (ISO).
 
 Shell Linux : 
 
-[Placer votre capture d'écran]() 
+![Virtual disk](/Images/shell.jpg) 
 
 > **ATTENTION** : par défaut, le clavier est configuré est **Clavier Americain**
 
@@ -108,12 +108,12 @@ x = Peut être éxécuté par tout le restes des utilisateurs
 
 Q7. dans quel dossier racine allez-vous le placer (justifiez votre réponse) 
 
-Le répertoire var car il est indépendant a chaque utilisateur et   
+Le répertoire home car il est indépendant a chaque utilisateur et   
 j'aurais les droits d'écriture / lecture
 
 Q8. Quelle commande allez-vous utiliser pour faire ceci ?  
 
-cd var
+cd home  
 sudo mkdir EMSY_MCN_TBT
 
 **K.** Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
@@ -151,7 +151,7 @@ directement sur le disque.
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky en mode cli 
 
-> votre réponse ?!
+2 [GB]
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe-t-il sur les OS Microsoft Windows ? 
 
