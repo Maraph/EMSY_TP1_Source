@@ -147,7 +147,7 @@ directement sur le disque.
 
 **M.** Installez SparkyLinux
 
-![Placer vos captures d'écrans de l'installation]()
+![Virtual disk](/Images/M.jpg) 
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky en mode cli 
 
@@ -155,53 +155,57 @@ Q13. Quelle est la taille de disque minimum recommandée pour installer la distr
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe-t-il sur les OS Microsoft Windows ? 
 
-> votre réponse ?!
+si la mémoire vive est pleine la partition swap sera utilisée comme "RAM supplémentaire"  
+oui mais sous forme de fichier et non de portion du disque a proprement parler
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 
-> votre réponse ?!
+Fat32
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ? 
 
-> votre réponse ?!
+le premier est le nom de la machine sur un reseau (host) et le deuxieme est un utilisateur sur cette machine
 
 **N.** Une fois l’installation de Linux terminée, prenez une capture d’écran du démarrage de votre système (GRUB)
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/N.jpg) 
 
 **O.** Trouvez la ou les lignes de commande permettant de changer le clavier et procédez à la configuiration 
 
-> votre commande ?! 
+sudo dpkg-reconfigure keyboard-configuration
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/O.jpg)  
+![Virtual disk](/Images/O2.jpg) 
+![Virtual disk](/Images/O3.jpg)   
 
 **P.** Tapez la commande : `nano -version`
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/P.jpg) 
 
 Q17. A quoi sert `nano` ? 
 
-> votre réponse ?!
+créer / modifier des fichiers texte
 
 **Q.** Testez si l’application `git` est installée sur votre distribution, si ce n’est pas le cas installez un client git. 
 
 Q18. Comment savoir si `git` est déjà installé ? 
 
-> votre réponse ?!
+"git --version" devrait retourner la version de l'application 
 
-> votre commande ?! 
+git --version
 
 Q19. Si le client `git` n'est pas installé, quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
-> votre commande ?! 
+sudo apt-get install git
 
 Q20. Que veut dire `apt` ? 
 
-> votre réponse ?!
+un installateur de packets (une app store)
 
 Q21. Est-ce que cette commande (`apt`) peut être utilisée sur toutes les distributions Linux (justifiez votre réponse)? 
 
-> votre réponse ?!
+non, nous pouvons l'utiliser car nous sommes sur debian tandis que sur archlinux par exemple nous devons utiliser  
+un autre installer comme pacman ou archinstaller.
 
 **R.** Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. 
        
