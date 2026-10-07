@@ -196,11 +196,12 @@ git --version
 
 Q19. Si le client `git` n'est pas installé, quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
+sudo apt-get update  
 sudo apt-get install git
 
 Q20. Que veut dire `apt` ? 
 
-un installateur de packets (une app store)
+Advanced Packaging Tool, un installateur de packets (une app store)
 
 Q21. Est-ce que cette commande (`apt`) peut être utilisée sur toutes les distributions Linux (justifiez votre réponse)? 
 
@@ -211,15 +212,18 @@ un autre installer comme pacman ou archinstaller.
        
 **Attention** : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
 
-> votre commande ?! 
+sudo mkdir EMSY_MCN_TBT
 
 Q22. Quel est le répertoire utilisateur ?  
 
-> votre réponse ?!
+le répertoire se trouvant dans le répertoire home, dans mon cas newusermateo/
 
 Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture - écriture - execution) ?  
 
-> votre commande ?! 
+chmod u+wrx File  
+chmod g+wrx File  
+chmod o+wrx File  
+chmod ugo-wrx File  
 
 **S.** Dans ce répertoire, tapez la commande : `git clone https://github.com/votreDepot/EMSY_TP1_Source`
 
@@ -227,17 +231,17 @@ Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture 
 
 Q24. Qu’observez-vous dans ce répertoire ?
 
-![Placer votre capture d'écran]()
+On ne peut pas faire de git pull
+![Virtual disk](/Images/Q24.jpg) 
 
 **T.** Editez le fichier source `.c` avec l’éditeur de texte « nano ». -> Réalisez un petit programme en C (par exemple de type « Hello world »).
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/T.jpg) 
 
 **U.**	Vérifiez si le compilateur `gcc` est bien installé. Notez la version du logiciel
 
-> votre réponse ?!
-
-![Placer votre capture d'écran]()
+gcc --version  
+![Virtual disk](/Images/U.jpg) 
 
 **U-A.** Tapez les commandes suivantes :
 ```Shell 
@@ -246,21 +250,22 @@ gcc -o fichier fichier.o
 ```
 Remarque : « fichier » est à remplacer par le nom de votre choix
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/U-A.jpg) 
 
 Q25. Quels sont les fichiers qui ont été générés 
 
-> votre réponse ?!
+EMSY_TP1 qui est un executable  
+EMSY_TP1.o  
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/Q25.jpg) 
 
 **V.** Entrez la commande suivante : `./fichier`
 
-![Placer votre capture d'écran]()
+![Virtual disk](/Images/V.jpg)
 
 Q26. Que se passe-t-il ?
 
-> votre réponse ?!
+le fichié compilé auparavant se fait executer
 
 
 
