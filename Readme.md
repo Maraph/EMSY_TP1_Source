@@ -267,10 +267,6 @@ Q26. Que se passe-t-il ?
 
 le fichié compilé auparavant se fait executer
 
-
-
-...A compléter...
-
 ## Tips 
 
 > Tip 1 : sortir de la VM -> appuyer simultanément sur `Ctrl` et `Alt` 
