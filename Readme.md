@@ -174,7 +174,9 @@ sudo dpkg-reconfigure keyboard-configuration
 
 **P.** Tapez la commande : `nano -version`
 
-![Virtual disk](/Images/P.jpg) 
+![Virtual disk](/Images/P.jpg)  
+pour checker la version d'un logiciel il est necessaire de mettre deux -(nano --version)  
+![Virtual disk](/Images/P2.jpg)  
 
 Q17. A quoi sert `nano` ? 
 
@@ -184,9 +186,7 @@ créer / modifier des fichiers texte
 
 Q18. Comment savoir si `git` est déjà installé ? 
 
-"git --version" devrait retourner la version de l'application 
-
-git --version
+"git --version" devrait retourner la version de l'application  
 
 Q19. Si le client `git` n'est pas installé, quelle(s) commande(s) utilisez-vous pour l’installer ? 
 
@@ -206,7 +206,8 @@ un autre installer comme pacman ou archinstaller.
        
 **Attention** : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
 
-sudo mkdir EMSY_MCN_TBT
+sudo mkdir EMSY_MCN_TBT  
+sudo chmod u+wrx EMSY_MCN_TBT  
 
 Q22. Quel est le répertoire utilisateur ?  
 
@@ -214,10 +215,10 @@ le répertoire se trouvant dans le répertoire home, dans mon cas newusermateo/
 
 Q23. Quelles sont les commandes pour changer les droits d'utilisateurs (lecture - écriture - execution) ?  
 
-chmod u+wrx File  
-chmod g+wrx File  
-chmod o+wrx File  
-chmod ugo-wrx File  
+sudo chmod u+wrx File  
+sudo chmod g+wrx File  
+sudo chmod o+wrx File  
+sudo chmod ugo-wrx File  
 
 **S.** Dans ce répertoire, tapez la commande : `git clone https://github.com/votreDepot/EMSY_TP1_Source`
 
@@ -234,7 +235,7 @@ On ne peut pas faire de git pull
 
 **U.**	Vérifiez si le compilateur `gcc` est bien installé. Notez la version du logiciel
 
-gcc --version  
+gcc --version  (10.2.1-6)  
 ![Virtual disk](/Images/U.jpg) 
 
 **U-A.** Tapez les commandes suivantes :
