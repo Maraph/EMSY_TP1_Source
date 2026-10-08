@@ -129,7 +129,7 @@ non car il est sauvgardé dans la RAM et non la ROM
 
 Q11. Que signifie **sda** ? 
 
-Elle fait montrer toutes les partitions de disques dans le répertoire  
+c'est le premier disque dure 
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
