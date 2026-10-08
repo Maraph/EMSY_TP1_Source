@@ -133,7 +133,7 @@ c'est le premier disque dure
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
-Le repertoire home ne sauvgarde rien qui n'est pas dans un user  
+Le repertoire home ne sauvegarde rien qui n'est pas dans un user  
 tandis que le /dev/sda lui saugardera tout dans la rom car nous ecrivons  
 directement sur le disque.
 
