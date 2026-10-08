@@ -81,7 +81,7 @@ Q4. cd /
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-du répertoire complet
+montrer la liste des fichiers avec leurs autorisations et d'autres informations
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
@@ -129,11 +129,11 @@ non car il est sauvgardé dans la RAM et non la ROM
 
 Q11. Que signifie **sda** ? 
 
-Elle fait montrer toutes les partitions de disques dans le répertoire  
+c'est le premier disque dure 
 
 Q12. Quelle différence y a-t-il entre le répertoire de la question Q6 et celui du point L (justifiez votre réponse) ?
 
-Le repertoire home ne sauvgarde rien qui n'est pas dans un user  
+Le repertoire home ne sauvegarde rien qui n'est pas dans un user  
 tandis que le /dev/sda lui saugardera tout dans la rom car nous ecrivons  
 directement sur le disque.
 
