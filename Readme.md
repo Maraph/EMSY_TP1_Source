@@ -81,7 +81,7 @@ Q4. cd /
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-montrer les détails de toutes les autorisations 
+montrer la liste des fichiers avec leurs autorisations et d'autres informations
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
